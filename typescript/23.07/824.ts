@@ -1,5 +1,5 @@
 function toGoatLatin(sentence: string): string {
-    const vowels = ['a', 'e', 'i', 'o', 'u']
+    const vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
     let endWord = "maa"
     let ans = ""
     for (const word of sentence.split(" ")) {
