@@ -11,7 +11,6 @@ function averageOfLevels(root: TreeNode | null): number[] {
             if (node.right) s.push(node.right)
         }
         ans.push(sum/len)
-        console.log(s)
     }
     return ans
 };
